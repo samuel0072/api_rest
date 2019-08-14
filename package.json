@@ -1,0 +1,26 @@
+{
+  "author": "Glaucia Lemos",
+  "license": "MIT",
+  "description": "",
+  "name": "crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.2",
+    "ejs": "^2.5.7",
+    "express": "~4.0.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "*",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/tutorial-crud-node-express-mongodb"
+  }
+}
